@@ -1,0 +1,156 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 900;
+    font-style:"roboto , sans serif";
+    font-family:"Roboto";
+    transition: 0.3s;
+    border: 3px black;
+    align-items: center;
+
+
+}
+.headera {
+    align-items: baseline;
+}
+.zoom {
+    transition: 0.3s;
+    color: black;
+    text-decoration: underline white;
+    text-decoration-color:white;
+    
+}
+.zoom:hover {
+    text-decoration: underline white  ;
+    color: white;
+    
+}
+
+
+
+header {
+    /* font-style: italic; */
+    font-size: 28px;
+    /* font-weight: bold; */
+    color: rgb(255, 0, 68);
+    -webkit-text-stroke: 0.1px rgb(8, 8, 8);
+    background-color: rgb(66, 2, 2);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: fuchsia;
+    border-bottom: solid black;
+    
+}
+
+header a {
+    color: rgb(252, 252, 252);
+    text-decoration: underline 1.5px white;
+    
+}
+a.zoom {
+    transition: 0.3s;
+    text-decoration: none;
+}
+a.zoom:hover {
+    transform: scale(1.2);
+    text-decoration: underline white;
+}
+.round-input {
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2019/01/Search-loop-icon-EPS10-by-Kanggraphic.jpg);
+    background-size: 35px;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    border-radius: 20px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#ali{padding-top: 45px;}
+
+img { 
+
+    width: 100%;
+    /* height: 350px; */
+}
+.paragraph {
+    background-color: rgb(115, 3, 3);
+    display: flex;
+    justify-content: center;
+    font-family:'Pinyon Script';
+    font-size: 100px;
+    transition: 0.3s;
+    margin-top: 10px; 
+    border-bottom:  solid rgb(8, 0, 0);
+    border-top: 4px solid rgb(9, 0, 0);
+    margin-top: -6px;
+}
+.paragraph:hover {
+    color: rgb(253, 251, 251);
+}
+.Icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.Iconmg {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 400px;
+}
+h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+article {
+    font-size: 30px;
+    font-weight: bold;
+}
+.faq {
+    padding-bottom: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.question {
+    background-color: rgb(115, 3, 3);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.question a {
+    color: white;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+}
+article {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.reseaux {
+    width: 90px;
+    height: 50px;
+}
+.gif {
+    background-color: black;
+    margin-top: -100px;
+    height: 390px;
+    width: 100%;
+    
+}
+
